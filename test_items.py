@@ -3,7 +3,7 @@ import time
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 class TestMain():
-    def test_case(self, browser):
+    def test_find__card_button(self, browser):
         browser.get(link)
         time.sleep(30)
         browser.implicitly_wait(6)
